@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+
+.caixa{
+    display: flex;
+
+    margin-left: 67vh;
+    margin-top: 18vh;
+
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+body{
+    background-image: url(../img/James_and_Bob.jpg);
+    background-size: cover;
+    width: 90%;
+    background-repeat: no-repeat;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 0px 85px;
+    margin: 30px;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: rgb(91, 144, 243);
+    padding: 15px 120px;
+    border: none;
+ 
+    cursor: pointer;
+    margin-top: 60px;
+    margin-left: 110px; 
+}
+
+input[type="email"]{
+    padding: 10px;
+}
+
+input[type="password"]{
+    padding: 10px;
+}
+
+img{
+    height: 40px;
+    padding: 5;
+    background-color: white;
+}
